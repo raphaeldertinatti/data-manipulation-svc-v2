@@ -92,7 +92,7 @@ Após a limpeza, o serviço valida os valores de CPF e CNPJ usando as biblioteca
 **CNPJ_LUC_VALIDO:** Indica se o CNPJ da loja da última compra é válido (True) ou inválido (False).  
   
 - **Carga dos Dados:**  
-Após o processo de limpeza e validação, os dados são carregados na tabela base_teste do banco de dados PostgreSQL usando o comando COPY. O serviço então confirma as alterações no banco, garantindo a integridade dos dados carregados.
+Após o processo de limpeza e validação, os dados são carregados na tabela base_teste do banco de dados PostgreSQL usando o comando COPY. O serviço então confirma as alterações no banco, garantindo a integridade dos dados carregados..
 
 ## Testes Automatizados com Pytest
 Este projeto utiliza o pytest para a execução de testes automatizados. Os testes foram configurados para validar as funcionalidades principais do projeto, incluindo a limpeza e validação de dados.
